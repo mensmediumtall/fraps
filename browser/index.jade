@@ -1,0 +1,145 @@
+!!! 5
+html
+  head
+    title Men's Medium Tall
+    meta(http-equiv="X-UA-Compatible", content="IE=Edge,chrome=1")
+    //if IE
+      script
+        alert(
+            'Your version of Internet Explorer is out-of-date and or buggy.'
+          + ' Please use Chrome or Firefox to run this application.'
+        );
+    meta(http-equiv="Content-Type", content="text/html; charset=UTF-8")
+    meta(charset="utf-8")
+    link(rel="stylesheet", href="style.css", type="text/css", media="screen")
+    link(rel="stylesheet", href="style.css", type="text/css", media="print")
+    script(src="pakmanaged.js")
+  body
+    #css-body-wrapper
+      h1.
+        Men's Medium Tall
+
+      #js-menu
+        h2
+          a(href="http://fb.com/coolaj86", target="_blank") Our
+          span.
+            &nbsp;quest is that we should seek to clothe the midriffs of 20%
+          sup
+            a(href="http://www.cdc.gov/growthcharts/data/set1clinical/cj41c021.pdf", target="_blank")?
+          span.
+            &nbsp;of the American Male population.
+
+        h2.
+          Will you join us?
+
+        button.css-big.js-aye
+          h1.
+            Yes
+
+        br
+
+        button.css-big.js-nay
+          h1.
+            I have no quarrel with you good Sir Tall, but I shan't join this cause.
+
+
+      //- form#js-converter
+        .css-field
+          label Convert
+          input.js-cm
+          span.
+            cm
+          input.js-ft
+          span.
+            ft/in
+
+      #js-tab-nay
+        h2
+          span.
+            You make me 
+          a(href="http://youtu.be/dhRUe-gz690#t=104s", target="_blank") sad
+          span.
+            .
+        button.js-meh
+          h1.
+            Will you move for no man?
+
+      #js-tab-aye
+        .css-form-wrap
+          form(action='/info')#js-tall
+            p.css-title Your quest
+              sup
+                a(href="http://youtu.be/cV0tCphFMr8", target="_blank")?
+            .css-field 
+              span.css-select
+                span.css-arrows
+                select
+                  option(value="1", selected="selected") I seek to clothe mineself
+                  option(value="2") I seek to clothe mine beau (boyfriend)
+                  option(value="3") I seek to clothe the fruit of mine womb (child)
+
+            p.css-title General Size
+            .css-field
+              p.css-title
+                label Height
+              input(type="number", min="5", max="8", step="any", name="feet", value="6", required="required")
+              span.
+                ft
+              input(type="number", min="0", max="12", step="any", name="inches", required="required")
+              span.
+                in
+
+              p.css-title
+                label Weight
+              input(type="number", min="50", max="350", step="any", name="weight", required="required")
+              span.
+                lbs
+
+              p.css-title
+                label Pant Waist
+              input(type="number", min="10", step="any", name="waist", required="required")
+              span.
+                in
+
+              p.css-title
+                label Pant Length
+              input(type="number", min="10", step="any", name="length", required="required")
+              span.
+                in
+
+              p.css-title
+                label Pant Brand
+              input(type="text", name="brand")
+
+              br
+              span.
+                (because a 34 in Levi's is a 36 in Docker's)
+
+            p.css-title Size Specifics
+            .css-field
+              p.css-title
+                label Neck
+              input(type="number", min="10", step="any", name="neck")
+              span.
+                in
+
+              p.css-title
+                label Chest
+              input(type="number", min="10", step="any", name="chest")
+              span.
+                in
+
+            p.css-title Email
+            .css-field 
+              label Email Address:
+              input(type="email", name="email", required="required")
+
+            br.css-clear
+
+            p.css-submit
+              input(type='submit')
+
+            br.css-clear
+
+        p.
+          Men's Medium Tall is a safe space. It is a special place for Tall, Thin, Slender, Slim, Fitted, Medium and Small, not Big, Just Tall men.

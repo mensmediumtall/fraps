@@ -1,0 +1,14 @@
+/* TEAM */
+  Head Honcho: AJ ONeal
+  Site: http://coolaj86.com
+  Twitter: @coolaj86
+  Location: Silicon Slopes, UT
+
+/* THANKS */
+  Brian Tecklenburg
+
+/* SITE */
+  Last update: YYYY/MM/DD 
+  Standards: HTML5, CSS3,..
+  Components: Pakmanager, jQuery, etc.
+  Software: vim, nodejs, less, jade
