@@ -16,8 +16,8 @@ html
     script(src="pakmanaged.js")
   body
     #css-body-wrapper
-      .css-big-tagline.
-        Houston, we have a problem!
+      .css-big-tagline
+        h1 Houston, we have a problem!
       .css-shirt-theory
         .css-shirt-title.
           Theory
@@ -36,7 +36,7 @@ html
         .css-shirt-title.
           Practice
         img.css-shirt(src="images/shirt-practice.png")
-        .css-shirt-subtext.
+        .css-shirt-subtext
           span t-shirt made for boxes:
           br
           span sleeves grossly too short
@@ -56,7 +56,8 @@ html
 
       form#js-email-only
         input(type="email", placeholder="Ex: john.doe@gmail.com")
-        button.css-big-a-button(type="submit")
+        //-button.css-big-a-button(type="submit")
+        div.css-big-a-button
           span.css-the-title.
             Submit
           span.css-the-subtext.
