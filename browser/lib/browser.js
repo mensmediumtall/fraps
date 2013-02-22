@@ -22,6 +22,7 @@
     submitValues(function (err) {
       if (!err) {
         window.alert('Thanks for the info, we\'ll use it wisely!');
+        $('.js-modal-form-components').hide();
       }
     });
   }

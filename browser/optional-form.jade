@@ -10,9 +10,9 @@
       Give us a like?
     .fb-like(
         data-href="http://fb.com/mensmediumtall"
-      , data-send="false"
+      , data-send="true"
       , data-layout="button_count"
-      , data-width="60"
+      , data-width="150"
       , data-show-faces="false"
       , data-font="verdana"
       , data-colorscheme="light"
@@ -46,3 +46,16 @@
         span.
           lbs
       button.css-big-a-button(type="submit") Submit
+    br
+    .css-fb-big-like
+      include fb-like
+    //-
+      .fb-like(
+          data-href="http://fb.com/mensmediumtall"
+        , data-send="true"
+        , data-layout="button_count"
+        , data-width="150"
+        , data-show-faces="false"
+        , data-font="verdana"
+        , data-colorscheme="light"
+      )
