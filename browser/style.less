@@ -211,18 +211,24 @@ div.css-form-wrap div.css-field p.css-title {
   margin-right: auto;
   margin-left: auto;
 }
-.css-modal-form-cover{
+.css-modal-form-container {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  top: 0;
+}
+.css-modal-form-mask {
+  position: fixed;
   z-index: 100;
   float:left;
-  position:fixed;
-  top:0px;
-  left:0px;
-  width:100%;
-  height:100%;
-  background-color: rgba(255,255,255,0.2)
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6)
 }
 .css-modal-form{
-  z-index: 101;
+  z-index: 201;
   position: relative;
   margin:auto;
   width:600px;
@@ -245,4 +251,7 @@ div.css-form-wrap div.css-field p.css-title {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size:14px;
+}
+.css-field input {
+  width: 4em;
 }

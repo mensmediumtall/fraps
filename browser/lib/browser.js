@@ -35,10 +35,10 @@
 
     userEmail = data.email;
     
-    $('.js-modal-form-cover').show();
+    $('.js-modal-form-components').show();
     request.post('/info', null, data).when(function (err, ahr2, data) {
       if (!data || !data.success) {
-        $('.js-modal-form-cover').hide();
+        $('.js-modal-form-components').hide();
         window.alert('Actually... there was an error saving your e-mail address. Will you double check that please?');
       }
     });
